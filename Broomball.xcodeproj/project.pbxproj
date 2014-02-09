@@ -17,8 +17,6 @@
 		CD35673318A7FEE800174942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35673218A7FEE800174942 /* XCTest.framework */; };
 		CD35673418A7FEE800174942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35671918A7FEE800174942 /* Foundation.framework */; };
 		CD35673518A7FEE800174942 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35671D18A7FEE800174942 /* UIKit.framework */; };
-		CD35673D18A7FEE800174942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD35673B18A7FEE800174942 /* InfoPlist.strings */; };
-		CD35673F18A7FEE800174942 /* BroomballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35673E18A7FEE800174942 /* BroomballTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +43,6 @@
 		CD35672B18A7FEE800174942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD35673118A7FEE800174942 /* BroomballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD35673218A7FEE800174942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CD35673A18A7FEE800174942 /* BroomballTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BroomballTests-Info.plist"; sourceTree = "<group>"; };
-		CD35673C18A7FEE800174942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD35673E18A7FEE800174942 /* BroomballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroomballTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				CD35671F18A7FEE800174942 /* Broomball */,
-				CD35673818A7FEE800174942 /* BroomballTests */,
 				CD35671818A7FEE800174942 /* Frameworks */,
 				CD35671718A7FEE800174942 /* Products */,
 			);
@@ -122,24 +116,6 @@
 				CD35672218A7FEE800174942 /* InfoPlist.strings */,
 				CD35672518A7FEE800174942 /* main.m */,
 				CD35672718A7FEE800174942 /* Broomball-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CD35673818A7FEE800174942 /* BroomballTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD35673E18A7FEE800174942 /* BroomballTests.m */,
-				CD35673918A7FEE800174942 /* Supporting Files */,
-			);
-			path = BroomballTests;
-			sourceTree = "<group>";
-		};
-		CD35673918A7FEE800174942 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD35673A18A7FEE800174942 /* BroomballTests-Info.plist */,
-				CD35673B18A7FEE800174942 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD35673D18A7FEE800174942 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD35673F18A7FEE800174942 /* BroomballTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +241,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				CD35672318A7FEE800174942 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CD35673B18A7FEE800174942 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD35673C18A7FEE800174942 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
