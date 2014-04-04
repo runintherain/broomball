@@ -17,6 +17,7 @@
 		CD35673318A7FEE800174942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35673218A7FEE800174942 /* XCTest.framework */; };
 		CD35673418A7FEE800174942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35671918A7FEE800174942 /* Foundation.framework */; };
 		CD35673518A7FEE800174942 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35671D18A7FEE800174942 /* UIKit.framework */; };
+		CD9C094918C2C0A6004AEB76 /* BroomballStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9C094818C2C0A6004AEB76 /* BroomballStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CD35672B18A7FEE800174942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD35673118A7FEE800174942 /* BroomballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD35673218A7FEE800174942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD9C094818C2C0A6004AEB76 /* BroomballStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BroomballStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				CD35672818A7FEE800174942 /* AppDelegate.h */,
 				CD35672918A7FEE800174942 /* AppDelegate.m */,
+				CD9C094818C2C0A6004AEB76 /* BroomballStoryboard.storyboard */,
 				CD35672B18A7FEE800174942 /* Images.xcassets */,
 				CD35672018A7FEE800174942 /* Supporting Files */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C094918C2C0A6004AEB76 /* BroomballStoryboard.storyboard in Resources */,
 				CD35672418A7FEE800174942 /* InfoPlist.strings in Resources */,
 				CD35672C18A7FEE800174942 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +411,7 @@
 				CD35674418A7FEE800174942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD35674518A7FEE800174942 /* Build configuration list for PBXNativeTarget "BroomballTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				CD35674718A7FEE800174942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
