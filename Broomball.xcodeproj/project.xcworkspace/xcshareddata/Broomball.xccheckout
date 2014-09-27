@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2A3BFEE-DC59-429B-AA77-1DD0D87A1D19</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Broomball</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CFBAEFA0DF6C871EC55E4512CD8494D0188488CC</key>
+		<string>https://github.com/runintherain/broomball.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Broomball.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CFBAEFA0DF6C871EC55E4512CD8494D0188488CC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/runintherain/broomball.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CFBAEFA0DF6C871EC55E4512CD8494D0188488CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFBAEFA0DF6C871EC55E4512CD8494D0188488CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>broomball</string>
+		</dict>
+	</array>
+</dict>
+</plist>
